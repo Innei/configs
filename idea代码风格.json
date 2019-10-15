@@ -998,10 +998,10 @@
         "h3"
       ],
       "align_attributes": true,
-      "align_text": false,
-      "attribute_wrap": "normal",
+      "align_text": true,
+      "attribute_wrap": "on_every_item",
       "block_comment_at_first_column": true,
-      "continuation_indent_size": 8,
+      "continuation_indent_size": 4,
       "do_not_align_children_of_min_lines": 0,
       "do_not_break_if_inline_tags": [
         "title",
@@ -1020,8 +1020,8 @@
         "tbody",
         "tfoot"
       ],
-      "enforce_quotes": false,
-      "indent_size": 4,
+      "enforce_quotes": true,
+      "indent_size": 2,
       "indent_style": "space",
       "inline_tags": [
         "a",
@@ -1078,7 +1078,7 @@
       "space_after_tag_name": false,
       "space_around_equality_in_attribute": false,
       "space_inside_empty_tag": false,
-      "tab_width": 4,
+      "tab_width": 2,
       "text_wrap": "normal"
     },
     "javascript": {
@@ -1132,7 +1132,7 @@
       "function_expression_brace_style": "end_of_line",
       "if_brace_force": "never",
       "import_merge_members": "global",
-      "import_prefer_absolute_path": "global",
+      "import_prefer_absolute_path": "true",
       "import_sort_members": true,
       "import_sort_module_name": false,
       "import_use_node_resolution": "true",
